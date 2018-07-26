@@ -10,6 +10,7 @@
             android:title="Switch Preference" />
 
         <EditTextPreference
+            android:dialogLayout="@layout/preference_dialog_edittext_fix"
             android:defaultValue="Default value"
             android:dialogMessage="Dialog Message"
             android:key="key2"
