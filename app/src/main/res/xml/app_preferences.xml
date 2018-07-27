@@ -10,8 +10,8 @@
             android:title="Switch Preference" />
 
         <EditTextPreference
-            android:dialogLayout="@layout/preference_dialog_edittext_fix"
             android:defaultValue="Default value"
+            android:dialogLayout="@layout/preference_dialog_edittext_fix"
             android:dialogMessage="Dialog Message"
             android:key="key2"
             android:summary="EditText Summary"
@@ -22,6 +22,16 @@
             android:key="key3"
             android:summary="CheckBox Summary"
             android:title="CheckBox Preference" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Category 2">
+
+        <com.example.myandroidsettingsscreen.TimePreference
+            android:defaultValue="90"
+            android:key="key4"
+            android:summary="Time Summary"
+            android:title="Time Preference" />
 
     </PreferenceCategory>
 
