@@ -28,6 +28,7 @@
     <PreferenceCategory android:title="Category 2">
 
         <com.example.myandroidsettingsscreen.TimePreference
+            style="@style/AppPreference.DialogPreference"
             android:defaultValue="90"
             android:key="key4"
             android:summary="Time Summary"
