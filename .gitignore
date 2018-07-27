@@ -11,3 +11,7 @@
 .externalNativeBuild
 /.idea/misc.xml
 /.idea/vcs.xml
+.idea/caches/
+.idea/markdown-navigator.xml
+.idea/sonarlint/
+app/libs/
